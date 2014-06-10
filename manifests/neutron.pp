@@ -64,7 +64,7 @@ class opensteak::neutron {
     bind_host             => hiera('ip-management'),
     rabbit_host           => hiera('ip-management'),
     core_plugin           => 'ml2',
-    service_plugins       => ['router','vpnaas'],
+    service_plugins       => ['router','vpnaas','firewall'],
     allow_overlapping_ips => true,
     rabbit_user           => 'rabbit',
     rabbit_password       => hiera('rabbitmq-password'),
