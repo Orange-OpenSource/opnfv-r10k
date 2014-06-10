@@ -56,10 +56,10 @@ class opensteak::nova-compute {
     vncproxy_host                 => hiera('horizon-fqdn'),
     vnc_keymap                    => 'fr',
   }
+  
   class { '::nova::vncproxy':
     enabled => false,
   }
-
 
   # spice
   # Si novnc, ne pas oublier de passer vnc_enable a true
@@ -76,5 +76,8 @@ class opensteak::nova-compute {
   #    proxy_protocol              => 'http',
   #    require                     => Package['nova-spiceproxy'],
   #  }
-  #
+  
+  nova_config{
+    'DEFAULT/my_ip': value => hiera('ip-management');
+  }
 }

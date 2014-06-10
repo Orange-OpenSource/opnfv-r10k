@@ -83,6 +83,7 @@ class opensteak::nova {
     vncproxy_host                 => hiera('horizon-fqdn'),
     vnc_keymap                    => 'fr',
   }
+  
   class { '::nova::vncproxy':
     enabled => true,
     host    => hiera('ip-public'),
@@ -118,6 +119,10 @@ class opensteak::nova {
   #  package { 'nova-spiceproxy':
   #    ensure  => present,
   #  }
+  
+  nova_config{
+    'DEFAULT/my_ip': value => hiera('ip-management');
+  }
 
   # Initialise la BDD
   class { '::nova::db::mysql':

@@ -108,16 +108,23 @@ class opensteak::neutron {
     bridge_uplinks    => ['br-ex:em2', 'br-vm:em5'],
   }
 
-  class { '::neutron::agents::l3': 
-    debug   => hiera('debug'),
-  }
-
   class { '::neutron::agents::dhcp':
     debug   => hiera('debug'),
   }
 
-  # Ajoute le VPN As A Service
+  # Uncomment if VPN agent not used
+  # See https://bugs.launchpad.net/ubuntu/+source/neutron/+bug/1303876
+#  class { '::neutron::agents::l3': 
+#    debug   => hiera('debug'),
+#  }
+
+  # Ajoute le VPNaaS
   class { '::neutron::agents::vpnaas': }
+
+  # Ajoute le FWaaS
+  class { '::neutron::services::fwaas': 
+    vpnaas_agent_package => true,
+  }
 
   class { '::neutron::agents::metadata':
     auth_password => hiera('neutron-password'),
