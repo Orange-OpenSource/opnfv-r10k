@@ -25,7 +25,10 @@ class opensteak::horizon {
     horizon_ca          => '/etc/ssl/certs/ssl-cert-snakeoil.pem',
     horizon_key         => '/etc/ssl/private/ssl-cert-snakeoil.key',
     keystone_url        => "http://${management_address}:5000/v2.0",
-    neutron_options     => { 'enable_vpn' => true, },
+    neutron_options     => { 
+      'enable_vpn'      => true, 
+      'enable_firewall' => true,
+    },
   }
 
   if $::selinux and str2bool($::selinux) != false {
