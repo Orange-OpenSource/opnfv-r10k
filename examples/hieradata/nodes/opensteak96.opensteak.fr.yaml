@@ -45,3 +45,11 @@ neutron-shared-secret: 'toto'
 # Horizon
 ###
 horizon-secret-key: 'toto'
+
+###
+# Ceilometer
+###
+ceilometer-password: 'toto'
+ceilometer-mongo-password: 'toto'
+ceilometer-metering-secret: 'toto'
+
