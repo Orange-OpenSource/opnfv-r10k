@@ -37,7 +37,7 @@ class opensteak::neutron {
     tenant_network_types  => ['vlan'],
     network_vlan_ranges   => ['physnet2:701:899'],
     enable_security_group => true,
-    firewall_driver       => 'neutron.agent.linux.iptables_firewall.OVSHybridIptablesFirewallDriver',
+#    firewall_driver       => 'neutron.agent.linux.iptables_firewall.OVSHybridIptablesFirewallDriver',
     require               => Package['neutron-plugin-openvswitch', 'neutron-plugin-linuxbridge'],
   }
 

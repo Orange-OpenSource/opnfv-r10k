@@ -1,0 +1,81 @@
+#!/usr/bin/env ruby
+#^syntax detection
+
+forge "http://forge.puppetlabs.com"
+
+# use dependencies defined in Modulefile
+#modulefile
+
+# mod 'puppetlabs/stdlib'
+
+# mod 'ntp',
+#   :git => 'git://github.com/puppetlabs/puppetlabs-ntp.git'
+
+# mod 'apt',
+#   :git => 'https://github.com/puppetlabs/puppetlabs-apt.git',
+#   :ref => 'feature/master/dans_refactor'
+
+# NTP
+mod "puppetlabs/ntp"
+
+# MySQL
+mod "puppetlabs/mysql",
+  :git => "git://github.com/puppetlabs/puppetlabs-mysql",
+  :ref => "2.2.x"
+
+# Rabbit MQ
+mod "puppetlabs/rabbitmq",
+  :git => "git://github.com/puppetlabs/puppetlabs-rabbitmq",
+  :ref => "f5ef73ec96b1698acf81eb2168748901eb062f30"
+
+# Keystone
+mod "puppetlabs/keystone",
+  :git => "git://github.com/arnaudmorinol/puppet-keystone",
+  :ref => "master"
+
+# Glance
+mod "puppetlabs/glance",
+  :git => "git://github.com/arnaudmorinol/puppet-glance",
+  :ref => "master"
+
+# Cinder
+mod "puppetlabs/cinder",
+  :git => "git://github.com/arnaudmorinol/puppet-cinder",
+  :ref => "master"
+
+# Nova
+mod "puppetlabs/nova",
+  :git => "git://github.com/arnaudmorinol/puppet-nova",
+  :ref => "master"
+
+# Neutron
+mod "puppetlabs/neutron",
+  :git => "git://github.com/arnaudmorinol/puppet-neutron",
+  :ref => "master"
+
+# Ceilometer
+mod "puppetlabs/ceilometer",
+  :git => "git://github.com/arnaudmorinol/puppet-ceilometer",
+  :ref => "stable/icehouse"
+
+# Horizon
+mod "puppetlabs/horizon",
+  :git => "git://github.com/arnaudmorinol/puppet-horizon",
+  :ref => "master"
+
+# Temporarily use damjanek firewall instead of stackforge
+# should be drop when https://github.com/puppetlabs/puppetlabs-firewall/pull/337
+# will be pulled
+mod "puppetlabs/firewall",
+  :git => "git://github.com/damjanek/puppetlabs-firewall",
+  :ref => "master"
+
+# OpenSteak
+mod "arnaudmorinol/opensteak",
+  :git => "git://github.com/arnaudmorinol/puppet-opensteak",
+  :ref => "master"
+
+# MongoDB
+mod "puppetlabs/mongodb",
+  :git => "git://github.com/puppetlabs/puppetlabs-mongodb",
+  :ref => "0.7.0"
