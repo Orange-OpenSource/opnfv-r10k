@@ -10,3 +10,7 @@ mod "arnaudmorinol/opensteak_dns",
   :git      => "git://github.com/arnaudmorinol/opensteak-dns",
   :branch   => "production"
 
+# RabbitMQ
+mod "arnaudmorinol/opensteak_rabbit",
+  :git      => "git://github.com/arnaudmorinol/opensteak-rabbit",
+  :branch   => "production"
