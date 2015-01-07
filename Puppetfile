@@ -27,3 +27,8 @@ mod "stackforge/keystone",
 #mod "arnaudmorinol/opensteak_keystone",
 #  :git      => "git://github.com/arnaudmorinol/opensteak-keystone",
 #  :branch   => "production"
+
+# OpenSteak
+mod "arnaudmorinol/opensteak",
+  :git      => "git://github.com/arnaudmorinol/opensteak-puppet",
+  :branch   => "production"
