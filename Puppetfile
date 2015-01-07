@@ -5,6 +5,8 @@ mod 'puppetlabs/ntp'
 mod 'puppetlabs/stdlib'
 
 # DNS
+mod "camptocamp/bind"
 mod "arnaudmorinol/opensteak_dns",
   :git      => "git://github.com/arnaudmorinol/opensteak-dns",
   :branch   => "production"
+
