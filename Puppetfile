@@ -18,7 +18,7 @@ mod "puppetlabs/apache"
 # OpenStack Lib
 mod "stackforge/openstacklib",
   :git => "git://github.com/stackforge/puppet-openstacklib",
-  :ref => "master"
+  :ref => "stable/juno"
 
 # Keystone
 mod "stackforge/keystone",
@@ -28,22 +28,22 @@ mod "stackforge/keystone",
 # Glance
 mod "stackforge/glance",
   :git => "git://github.com/stackforge/puppet-glance",
-  :ref => "master"
+  :ref => "stable/juno"
 
 # Cinder
 mod "stackforge/cinder",
   :git => "git://github.com/stackforge/puppet-cinder",
-  :ref => "master"
+  :ref => "stable/juno"
 
 # Nova
 mod "stackforge/nova",
   :git => "git://github.com/stackforge/puppet-nova",
-  :ref => "master"
+  :ref => "stable/juno"
 
 # Neutron
 mod "stackforge/neutron",
   :git => "git://github.com/stackforge/puppet-neutron",
-  :ref => "master"
+  :ref => "stable/juno"
 
 # OpenSteak
 mod "arnaudmorinol/opensteak",
