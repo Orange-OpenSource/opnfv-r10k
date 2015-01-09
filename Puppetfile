@@ -6,6 +6,9 @@ mod "puppetlabs/stdlib"
 mod "puppetlabs/concat"
 mod "puppetlabs/inifile"
 
+# APT
+mod "puppetlabs/apt"
+
 # DNS
 mod "camptocamp/bind"
 
