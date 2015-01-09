@@ -23,7 +23,7 @@ mod "stackforge/openstacklib",
 # Keystone
 mod "stackforge/keystone",
   :git => "git://github.com/stackforge/puppet-keystone",
-  :ref => "master"
+  :ref => "stable/juno"
   
 # Glance
 mod "stackforge/glance",
