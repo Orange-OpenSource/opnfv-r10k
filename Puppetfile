@@ -3,6 +3,7 @@ forge 'forge.puppetlabs.com'
 # Generic Modules
 mod "puppetlabs/ntp"
 mod "puppetlabs/stdlib"
+mod "duritong/puppet-sysctl"
 mod "puppetlabs/concat"
 mod "puppetlabs/inifile"
 
