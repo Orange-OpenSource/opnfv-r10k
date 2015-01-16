@@ -54,3 +54,7 @@ mod "arnaudmorinol/opensteak",
   :git      => "git://github.com/arnaudmorinol/opensteak-puppet",
   :branch   => "production"
 
+# Sysctl
+mod "duritong/puppet-sysctl",
+  :git      => "git://github.com/duritong/puppet-sysctl",
+  :branch   => "master"
