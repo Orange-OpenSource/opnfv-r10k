@@ -3,7 +3,7 @@ forge 'forge.puppetlabs.com'
 # Generic Modules
 mod "puppetlabs/ntp"
 mod "puppetlabs/stdlib"
-mod "duritong/puppet-sysctl"
+mod "duritong/sysctl"
 mod "puppetlabs/concat"
 mod "puppetlabs/inifile"
 
@@ -53,8 +53,3 @@ mod "stackforge/neutron",
 mod "arnaudmorinol/opensteak",
   :git      => "git://github.com/arnaudmorinol/opensteak-puppet",
   :branch   => "production"
-
-# Sysctl
-mod "duritong/puppet-sysctl",
-  :git      => "git://github.com/duritong/puppet-sysctl",
-  :branch   => "master"
