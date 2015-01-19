@@ -5,6 +5,7 @@ mod "puppetlabs/ntp"
 mod "puppetlabs/stdlib"
 mod "duritong/sysctl"
 mod "puppetlabs/concat"
+mod "puppetlabs/vswitch"
 mod "puppetlabs/inifile"
 
 # APT
