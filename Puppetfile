@@ -6,6 +6,7 @@ mod "puppetlabs/stdlib"
 mod "duritong/puppet-sysctl"
 mod "puppetlabs/concat"
 mod "puppetlabs/inifile"
+mod "tracywebtech/pip"
 
 # APT
 mod "puppetlabs/apt"
