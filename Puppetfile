@@ -15,6 +15,9 @@ mod "puppetlabs/apt"
 # DNS
 mod "camptocamp/bind"
 
+# HAProxy
+mod "puppetlabs/haproxy"
+
 # MySQL
 mod "puppetlabs/mysql"
 
