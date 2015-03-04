@@ -69,5 +69,9 @@ mod "stackforge/neutron",
 
 # OpenSteak
 mod "arnaudmorinol/opensteak",
-  :git      => "git://github.com/arnaudmorinol/opensteak-puppet",
+  :git      => "git://github.com/Orange-OpenSource/opnfv-puppet",
   :branch   => "production"
+
+# OpenSteak
+mod "dfarrell07/puppet-opendaylight",
+  :git      => "git://github.com/puppet-opendaylight.git",
