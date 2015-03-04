@@ -17,6 +17,12 @@ mod "puppetlabs/apt"
 # DNS
 mod "camptocamp/bind"
 
+# ODL
+mod "davidblaisonneau-orange/puppet-opendaylight",
+  :git      => "git://github.com/davidblaisonneau-orange/puppet-opendaylight",
+mod "camptocamp/archive"
+mod "puppetlabs/java"
+
 # HAProxy
 mod "puppetlabs/haproxy"
 
@@ -71,7 +77,3 @@ mod "stackforge/neutron",
 mod "arnaudmorinol/opensteak",
   :git      => "git://github.com/Orange-OpenSource/opnfv-puppet",
   :branch   => "production"
-
-# OpenSteak
-mod "dfarrell07/puppet-opendaylight",
-  :git      => "git://github.com/puppet-opendaylight.git",
