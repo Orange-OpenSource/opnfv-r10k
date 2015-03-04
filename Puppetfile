@@ -41,7 +41,12 @@ mod "stackforge/openstacklib",
 mod "stackforge/keystone",
   :git => "git://github.com/stackforge/puppet-keystone",
   :ref => "stable/juno"
-  
+
+# Horizon
+mod "stackforge/horizon",
+  :git => "git://github.com/stackforge/puppet-horizon",
+  :ref => "stable/juno"
+ 
 # Glance
 mod "stackforge/glance",
   :git => "git://github.com/stackforge/puppet-glance",
