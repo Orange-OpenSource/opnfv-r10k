@@ -5,9 +5,11 @@ mod "puppetlabs/ntp"
 mod "puppetlabs/stdlib"
 mod "duritong/sysctl"
 mod "puppetlabs/concat"
-mod "puppetlabs/vswitch"
 mod "puppetlabs/inifile"
 mod "tracywebtech/pip"
+
+# VSwitch
+mod "puppetlabs/vswitch"
 
 # APT
 mod "puppetlabs/apt"
@@ -20,6 +22,12 @@ mod "puppetlabs/haproxy"
 
 # MySQL
 mod "puppetlabs/mysql"
+
+# MemCached
+mod "saz/memcached"
+
+# Firewall
+mod "puppetlabs/firewall"
 
 # Apache (Needed by Keystone)
 mod "puppetlabs/apache"
