@@ -19,7 +19,8 @@ mod "camptocamp/bind"
 
 # ODL
 mod "davidblaisonneau-orange/puppet-opendaylight",
-  :git      => "git://github.com/davidblaisonneau-orange/puppet-opendaylight",
+  :git      => "git://github.com/davidblaisonneau-orange/puppet-opendaylight"
+
 mod "camptocamp/archive"
 mod "puppetlabs/java"
 
