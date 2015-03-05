@@ -78,6 +78,10 @@ mod "stackforge/neutron",
   :git => "git://github.com/stackforge/puppet-neutron",
   :ref => "stable/juno"
 
+# Ceph
+mod "stackforge/ceph",
+  :git => "git://github.com/stackforge/puppet-ceph"
+
 # OpenSteak
 mod "arnaudmorinol/opensteak",
   :git      => "git://github.com/Orange-OpenSource/opnfv-puppet",
