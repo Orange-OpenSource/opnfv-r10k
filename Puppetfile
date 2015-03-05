@@ -8,6 +8,10 @@ mod "puppetlabs/concat"
 mod "puppetlabs/inifile"
 mod "tracywebtech/pip"
 
+# For ceph
+mod 'bodepd/scenario_node_terminus',
+  :git => 'git://github.com/bodepd/scenario_node_terminus'
+
 # VSwitch
 mod "puppetlabs/vswitch"
 
@@ -36,7 +40,7 @@ mod "saz/memcached"
 # Firewall
 mod "puppetlabs/firewall"
 
-# Apache (Needed by Keystone)
+# Apache
 mod "puppetlabs/apache"
 
 # OpenStack Lib
