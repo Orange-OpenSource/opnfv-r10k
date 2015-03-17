@@ -28,6 +28,9 @@ mod "davidblaisonneauorange/opendaylight",
 mod "camptocamp/archive"
 mod "puppetlabs/java"
 
+# Nginx
+mod "jfryman/nginx"
+
 # HAProxy
 mod "puppetlabs/haproxy"
 
