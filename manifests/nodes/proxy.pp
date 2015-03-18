@@ -1,0 +1,3 @@
+node /^proxy.*$/ {
+    include nginx
+}
