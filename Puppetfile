@@ -25,6 +25,10 @@ mod "camptocamp/bind"
 mod "theforeman/dhcp",
   :git      => "git://github.com/theforeman/puppet-dhcp"
 
+# Reboot
+mod "puppetlabs/reboot"
+  :git      => "git://github.com/puppetlabs/puppetlabs-reboot"
+
 # ODL
 mod "davidblaisonneauorange/opendaylight",
   :git      => "git://github.com/davidblaisonneau-orange/puppet-opendaylight"
