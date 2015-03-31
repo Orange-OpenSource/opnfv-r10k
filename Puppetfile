@@ -26,7 +26,7 @@ mod "theforeman/dhcp",
   :git      => "git://github.com/theforeman/puppet-dhcp"
 
 # Reboot
-mod "puppetlabs/reboot"
+mod "puppetlabs/reboot",
   :git      => "git://github.com/puppetlabs/puppetlabs-reboot"
 
 # ODL
