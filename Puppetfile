@@ -25,6 +25,10 @@ mod "camptocamp/bind"
 mod "theforeman/dhcp",
   :git      => "git://github.com/theforeman/puppet-dhcp"
 
+# Foreman Concat native
+mod "theforeman/concat",
+  :git      => "git://github.com/theforeman/puppet-concat_native"
+
 # Reboot
 mod "puppetlabs/reboot",
   :git      => "git://github.com/puppetlabs/puppetlabs-reboot"
