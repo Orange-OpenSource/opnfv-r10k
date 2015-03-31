@@ -21,6 +21,10 @@ mod "puppetlabs/apt"
 # DNS
 mod "camptocamp/bind"
 
+# Foreman DHCP
+mod "theforeman/dhcp",
+  :git      => "git://github.com/theforeman/puppet-dhcp"
+
 # ODL
 mod "davidblaisonneauorange/opendaylight",
   :git      => "git://github.com/davidblaisonneau-orange/puppet-opendaylight"
