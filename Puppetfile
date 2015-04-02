@@ -41,8 +41,7 @@ mod "camptocamp/archive"
 mod "puppetlabs/java"
 
 # LibVirt
-mod "puppetlabs/libvirt",
-  :git      => "git://github.com/puppetlabs/puppetlabs-libvirt"
+mod "thias/libvirt"
 
 # Nginx
 mod "jfryman/nginx"
