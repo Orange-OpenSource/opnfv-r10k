@@ -26,7 +26,7 @@ mod "theforeman/dhcp",
   :git      => "git://github.com/theforeman/puppet-dhcp"
 
 # Foreman Concat native
-mod "theforeman/concat",
+mod "theforeman/concat_native",
   :git      => "git://github.com/theforeman/puppet-concat_native"
 
 # Reboot
@@ -39,6 +39,10 @@ mod "davidblaisonneauorange/opendaylight",
 
 mod "camptocamp/archive"
 mod "puppetlabs/java"
+
+# LibVIrt
+mod "puppetlabs/libvirt"
+  :git      => "git://github.com/puppetlabs/puppetlabs-libvirt"
 
 # Nginx
 mod "jfryman/nginx"
