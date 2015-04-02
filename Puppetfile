@@ -40,8 +40,8 @@ mod "davidblaisonneauorange/opendaylight",
 mod "camptocamp/archive"
 mod "puppetlabs/java"
 
-# LibVIrt
-mod "puppetlabs/libvirt"
+# LibVirt
+mod "puppetlabs/libvirt",
   :git      => "git://github.com/puppetlabs/puppetlabs-libvirt"
 
 # Nginx
