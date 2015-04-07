@@ -34,8 +34,8 @@ mod "puppetlabs/reboot",
   :git      => "git://github.com/puppetlabs/puppetlabs-reboot"
 
 # ODL
-mod "davidblaisonneauorange/opendaylight",
-  :git      => "git://github.com/davidblaisonneau-orange/puppet-opendaylight"
+mod "dfarrell07/opendaylight",
+  :git      => "git://github.com/dfarrell07/puppet-opendaylight"
 
 mod "camptocamp/archive"
 mod "puppetlabs/java"
