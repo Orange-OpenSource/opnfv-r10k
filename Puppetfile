@@ -23,7 +23,7 @@ mod "camptocamp/bind"
 
 # Foreman DHCP
 mod "theforeman/dhcp",
-  :git      => "git://github.com/theforeman/puppet-dhcp"
+  :git      => "git://github.com/davidblaisonneau-orange/puppet-dhcp"
 
 # Foreman Concat native
 mod "theforeman/concat_native",
