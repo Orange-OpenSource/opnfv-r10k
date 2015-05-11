@@ -23,7 +23,7 @@ mod "camptocamp/bind"
 
 # Foreman DHCP
 mod "theforeman/dhcp",
-  :git      => "git://github.com/davidblaisonneau-orange/puppet-dhcp"
+  :git      => "git://github.com/theforeman/puppet-dhcp"
 
 # Foreman Concat native
 mod "theforeman/concat_native",
@@ -42,6 +42,8 @@ mod "puppetlabs/java"
 
 # LibVirt
 mod "thias/libvirt"
+  :git      => "git://github.com/davidblaisonneau-orange/puppet-libvirt"
+  :branch   => "ovs"
 
 # Nginx
 mod "jfryman/nginx"
@@ -75,7 +77,7 @@ mod "stackforge/keystone",
 mod "stackforge/horizon",
   :git => "git://github.com/stackforge/puppet-horizon",
   :ref => "stable/juno"
- 
+
 # Glance
 mod "stackforge/glance",
   :git => "git://github.com/stackforge/puppet-glance",
