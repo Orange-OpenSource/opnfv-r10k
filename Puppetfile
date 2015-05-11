@@ -41,8 +41,8 @@ mod "camptocamp/archive"
 mod "puppetlabs/java"
 
 # LibVirt
-mod "thias/libvirt"
-  :git      => "git://github.com/davidblaisonneau-orange/puppet-libvirt"
+mod "thias/libvirt",
+  :git      => "git://github.com/davidblaisonneau-orange/puppet-libvirt",
   :branch   => "ovs"
 
 # Nginx
